@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --primary-color: #ff6347; /* Your primary color */
+    --secondary-color: #6a5acd; /* Your secondary color */
+    --tertiary-color: #40e0d0; /* Your tertiary color */
+
+    --text-color: #ffffff; /* Your primary text color */
+    --background-color: #1c1920; /* Your background color */
+}
+
+
+body {
+    font-family: 'VT323', monospace;
+	color: var(--text-color);
+	background-color: var(--background-color);
+	margin: auto;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+img {
+    image-rendering: pixelated;
+  }
