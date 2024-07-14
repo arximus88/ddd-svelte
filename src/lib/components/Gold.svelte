@@ -1,5 +1,5 @@
 <!-- Money.svelte -->
-<script lang="ts">
+<script>
 	export let gold = 0; // The player's money balance, received as a prop
 </script>
 

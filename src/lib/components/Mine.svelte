@@ -1,10 +1,10 @@
 <!-- Mine.svelte -->
-<script lang="ts">
+<script>
 	import { scale } from 'svelte/transition';
 	import { diggingGold } from '$lib/scripts/diggingLogic';
 	import Particle from './Particle.svelte';
 
-	let particles: any[] = [];
+	let particles = [];
 
 	function handleMouseDown() {
 		let audioDown = new Audio('/sounds/mouth-sound-ping-pong.wav');

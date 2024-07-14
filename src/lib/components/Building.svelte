@@ -1,5 +1,5 @@
 <!-- Building.svelte -->
-<script lang="ts">
+<script>
 	import { buyDwarf, dwarfCost } from '$lib/stores/gameStore';
 
 	function handleBuildingClick() {

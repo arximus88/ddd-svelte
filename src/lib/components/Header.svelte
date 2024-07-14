@@ -1,5 +1,5 @@
 <!-- Header.svelte -->
-<script lang="ts">
+<script>
 	import { gold, dwarves } from '$lib/stores/gameStore';
 	import { goto } from '$app/navigation';
 	// This will automatically update the header when the gold or dwarves change
@@ -8,7 +8,7 @@
 	let currentDwarvesCount = 0;
 	dwarves.subscribe((value) => (currentDwarvesCount = value.length));
 
-	export let saveGameState: () => void; // Function to save the game state
+	export let saveGameState // Function to save the game state
 
 	function handleBackClick() {
 		saveGameState();

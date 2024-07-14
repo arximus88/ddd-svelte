@@ -1,8 +1,5 @@
 <!-- Dwarf.svelte -->
 <script>
-	/**
-	 * @type {{ name: any; image: any; colorvar: number; }}
-	 */
 	export let dwarf;
 	import { fly } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
